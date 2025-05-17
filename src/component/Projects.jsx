@@ -30,7 +30,19 @@ const Projects = () => {
       image: '/image-project.png', // Replace with your local image
       category: 'web App'
     },
+ 
     {
+      name: 'Whispr GraphQL Project',
+
+      description: 'A full-stack GraphQL application with a React frontend and Apollo Server backend.Where Users can send anonymous messages along with their favorite songs, creating a fun and engaging experience',
+      link: 'https://github.com/lavshah19/Whispr-GraphQL-project',
+      github: 'https://github.com/lavshah19/Whispr-GraphQL-project',
+      tech: ['React', 'GraphQL', 'Apollo Server','nodejs'],
+      
+      image: '/allmsg.png', // Replace with your local image
+      category: 'Web App'
+    },
+       {
       name: 'chat app',
       description: 'This is a simple real-time chat application built using Node.js, Socket.io, and Vanilla JavaScript. It allows multiple users to chat in real-time with features like online user list and typing indicator.',
       link: 'https://github.com/lavshah19/chat-app',
@@ -39,14 +51,6 @@ const Projects = () => {
       image: '/chat-app.png', // Replace with your local image
       category: 'web app'
     },
-    // {
-    //   name: 'Project 4',
-    //   description: 'This is a description of Project 1. It is a web application built with React, Node.js, and MongoDB.',
-    //   link: 'https://project1.com',
-    //   tech: ['React', 'Node.js', 'MongoDB'],
-    //   image: '/lavshah.png',
-    //   category: 'Web App'
-    // },
     // {
     //   name: 'Project 5',
     //   description: 'This is a description of Project 2. It is a mobile app built with React Native and Expo.',

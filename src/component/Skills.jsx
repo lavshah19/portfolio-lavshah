@@ -49,7 +49,7 @@ export default function SkillsComponent() {
       icon: Database,
       color: "green",
       skills: [
-        { name: "PostgreSQL", level: 75, icon: Database },
+        // { name: "PostgreSQL", level: 75, icon: Database },
         { name: "MongoDB", level: 80, icon: Database },
         { name: "GraphQL", level: 70, icon: Cpu },
         { name: "REST API", level: 88, icon: Server },
@@ -63,9 +63,9 @@ export default function SkillsComponent() {
       color: "amber",
       skills: [
         { name: "Git", level: 92, icon: GitBranch },
-        { name: "Docker", level: 75, icon: Database },
-        { name: "CI/CD", level: 78, icon: Cpu },
-        { name: "AWS", level: 70, icon: Server },
+        // { name: "Docker", level: 75, icon: Database },
+        // { name: "CI/CD", level: 78, icon: Cpu },
+        // { name: "AWS", level: 70, icon: Server },
         { name: "Vercel", level: 85, icon: Server },
       ],
     },
@@ -155,7 +155,7 @@ export default function SkillsComponent() {
                       </div>
                       <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
                         <div
-                          className={`h-full ${colors.bg} transition-all duration-1000 ease-out`}
+                          className={`h-full bg-blue-600 transition-all duration-1000 ease-out`}
                           style={{ 
                             width: `${skill.level}%`,
                             transform: 'translateX(0)',
