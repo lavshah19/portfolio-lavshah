@@ -139,6 +139,7 @@ const Navbar = () => {
               flex items-center gap-2
               hover:shadow-lg hover:shadow-blue-500/25
               transition-all duration-300
+              cursor-pointer
             "
             >
               <FileText className="w-4 h-4" />
