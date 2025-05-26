@@ -30,6 +30,16 @@ const Projects = () => {
       image: '/image-project.png', // Replace with your local image
       category: 'web App'
     },
+
+       {
+      name: 'Promptly AI',
+      description: `Promptly is a simple AI chat interface built with React on the frontend and a lightweight Node.js + Express backend, using Google's Gemini API for generating responses.`,
+      link: 'https://github.com/lavshah19/Promptly-MERN-AI',
+      github: 'https://github.com/lavshah19/Promptly-MERN-AI',
+      tech: ['React', 'Node.js', 'Express', 'Gemini API'],
+      image: '/promptly.png', // Replace with your local image
+      category: 'AI Chat App'
+    },
  
     {
       name: 'Whispr GraphQL Project',
@@ -51,14 +61,7 @@ const Projects = () => {
       image: '/chat-app.png', // Replace with your local image
       category: 'web app'
     },
-    // {
-    //   name: 'Project 5',
-    //   description: 'This is a description of Project 2. It is a mobile app built with React Native and Expo.',
-    //   link: 'https://project2.com',
-    //   tech: ['React Native', 'Expo'],
-    //   image: '/project-placeholder.jpg', // Replace with your local image
-    //   category: 'Mobile App'
-    // },
+ 
     // {
     //   name: 'Project 6',
     //   description: 'This is a description of Project 3. It is a full-stack application built with the MERN stack.',
