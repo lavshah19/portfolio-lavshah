@@ -28,7 +28,7 @@ export default function ContactComponent() {
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-700">Location</h4>
-                  <p className="text-gray-600">Nepalgunj Ganeshpur 4</p>
+                  <p className="text-gray-600">Kathmandu, Nepal</p>
                 </div>
               </div>
 
