@@ -13,7 +13,7 @@ import {
 const Banner = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/lavshah19', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/lavshah', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/lav-shah-8203031b8/', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:lavshah51@gmail.com', label: 'Email' }
   ];
 

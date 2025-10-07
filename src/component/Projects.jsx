@@ -12,6 +12,16 @@ import {
 
 const Projects = () => {
   const projects = [
+
+    {
+      name: 'Learnly',
+      description: 'A full‑stack learning management system (LMS) with instructor course creation, bulk media uploads, student enrollment and progress tracking, and eSewa payment integration..',
+      link: 'https://learnly-eta.vercel.app',
+      github: 'https://github.com/lavshah19/Learnly',
+      tech: ['React', 'Node.js', 'MongoDB','express','payment gateway','tailwind'],
+      image: '/learnly.png',
+      category: 'full stack'
+    },
     {
       name: 'task-arena',
       description: 'Task Arena is a full-stack productivity web app that makes staying organized fun and competitive. It blends personal task management with challenge-based goal tracking, helping you build better habits, complete tasks, and push your limits.',
