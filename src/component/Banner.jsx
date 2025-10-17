@@ -43,7 +43,7 @@ const Banner = () => {
             </h1>
 
             <p className="text-xl text-blue-100 font-medium animate-fade-in-up">
-              BSc CSIT Student at Tribhuvan University
+              BSc CSIT Student at Tribhuvan University.
             </p>
 
             <p className="text-blue-100 text-lg leading-relaxed max-w-md mx-auto md:mx-0 animate-fade-in-up delay-100">
