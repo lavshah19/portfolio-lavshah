@@ -12,17 +12,7 @@ import {
 
 const Projects = () => {
   const projects = [
-    {
-      name: "Learnly",
-      description:
-        "A full-stack learning management system (LMS) with instructor course creation, bulk media uploads, student enrollment and progress tracking, and eSewa payment integration.",
-      link: "https://learnly-eta.vercel.app",
-      github: "https://github.com/lavshah19/Learnly",
-      tech: ["React", "Node.js", "MongoDB", "Express", "Payment Gateway", "Tailwind"],
-      image: "/learnly.png",
-      category: "full stack",
-    },
-
+    
     {
       name: "Lavio — AI Agent",
       description:
@@ -47,6 +37,16 @@ const Projects = () => {
       ],
       image: "/learnly.png",
       category: "AI / Full Stack",
+    },
+    {
+      name: "Learnly",
+      description:
+        "A full-stack learning management system (LMS) with instructor course creation, bulk media uploads, student enrollment and progress tracking, and eSewa payment integration.",
+      link: "https://learnly-eta.vercel.app",
+      github: "https://github.com/lavshah19/Learnly",
+      tech: ["React", "Node.js", "MongoDB", "Express", "Payment Gateway", "Tailwind"],
+      image: "/learnly.png",
+      category: "full stack",
     },
 
     {
