@@ -129,7 +129,7 @@ const Navbar = () => {
             </div>
 
             {/* Resume Button */}
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/resume1.pdf" target="_blank" rel="noopener noreferrer">
             <button
               className="
               group
